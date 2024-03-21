@@ -1,0 +1,54 @@
+html {
+  font-family: "Roboto Condensed";
+}
+
+h1 {
+  text-align: center;
+  color: #f7418f;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #f7418f;
+  font-size: 20px;
+  font-style: italics;
+  margin-top: 0px;
+}
+
+ul.center-list {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
+  color: #fc819e;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.center-list li {
+  background: url("mushroom.svg") no-repeat left center;
+  background-size: 20px;
+  background-size: contain;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #fff3c7;
+}
+
+.cat-picture {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  padding-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+}
